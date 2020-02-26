@@ -1,0 +1,16 @@
+{
+  "name": "stream-example",
+  "version": "0.0.0",
+  "description": "Node.js Addons - Stream example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "private": true,
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "*",
+    "node-addon-api": "*",
+    "readable-stream": "^2.3.6"
+  }
+}
